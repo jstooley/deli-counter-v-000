@@ -10,9 +10,8 @@ def line(list)
 end
 
 def take_a_number(list, name)
-  list << name
-  place = line(list)
-  puts "Welcome, #{name}. You are number #{place} in line."
+  list.push(name)
+  puts "Welcome, #{name}. You are number #{list.lenght} in line."
 end
 
 def now_serving(list)
