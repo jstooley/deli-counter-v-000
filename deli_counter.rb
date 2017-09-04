@@ -11,3 +11,10 @@ def take_a_number(list, name)
   place = line(list)
   wait = [name,place]
 end
+def now_serving(list)
+  if list.lenght == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "#{list.shift}"
+  end
+end
