@@ -9,5 +9,5 @@ def line(list)
 end
 def take_a_number(list, name)
   place = line(list)
-  wait[name,place]
+  wait = [name,place]
 end
