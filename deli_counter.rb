@@ -8,4 +8,5 @@ def line(list)
   end
 end
 def take_a_number(list, name)
+  place = line(list)
 end
