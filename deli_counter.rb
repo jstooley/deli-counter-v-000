@@ -9,6 +9,7 @@ def line(list)
 end
 
 def take_a_number(list, name)
+  list << name
   place = line(list)
   wait = [name,place]
 end
