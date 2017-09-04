@@ -3,7 +3,7 @@ def line(list)
   if list.lenght == 0
     puts "The line is currently empty."
   else
-    place = list.lenght 
+    place = list.lenght
   end
 end
 
