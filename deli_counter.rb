@@ -3,10 +3,10 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
-    katz_deli.each_with_index do |name,i|
+    print "The line is currently:"
+    katz_deli.each_with_index { |name,i|
       puts " #{i+1}. #{name}"
-    end
+    }
   end
 end
 
