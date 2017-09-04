@@ -16,7 +16,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(list)
-  if katz_deli.length == 0
+  if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else
     puts "#{katz_deli.shift}"
